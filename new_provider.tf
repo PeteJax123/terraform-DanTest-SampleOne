@@ -1,6 +1,6 @@
 module "myresource_tagging" {
   source  = "claranet/tagging/azurerm"
-  version = "x.x.x"
+  version = "0.12.1"
 
   nb_resources = 2
   resource_ids = [var.myresource_id_1, var.myresource_id_2]
